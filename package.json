@@ -2,16 +2,20 @@
   "name": "new-lambda-learn",
   "version": "1.0.0",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/aws-lambda": "^8.10.150"
+    "@types/aws-lambda": "^8.10.150",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.2"
   },
-  "devDependencies": {},
   "keywords": [],
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.0.12"
+  }
 }
